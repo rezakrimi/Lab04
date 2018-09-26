@@ -17,7 +17,7 @@ import java.net.HttpURLConnection;
 
 public class IFTTTServer {
   public Map<String,String> events = new HashMap<String,String>();
-  public final String PAGESTART = "<html><body><center><h1>Known values</h1></center>><body><center><table>";
+  public final String PAGESTART = "<html><body><center><h1>Known values</h1></center><body><center><table>";
   public final String PAGEEND = "</table></center></body></html>";
 
   public class Handler implements HttpHandler {
